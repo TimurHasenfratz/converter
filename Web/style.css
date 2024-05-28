@@ -1,0 +1,120 @@
+
+body{
+    display:grid;
+    margin:auto;
+    justify-content:center;
+    text-align:center;
+    max-width:90vw;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+
+    margin-bottom:5rem;
+    font-style:San-serif;
+ 
+}
+.Container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:3rem;
+    justify-content:center;
+
+}
+a{
+    margin-top:200rem;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+form{
+    margin:auto;
+    display:grid;
+    flex-wrap:wrap;
+   
+    justify-content:center;
+    align-items:center;
+}
+h1{
+    color:#DCF2F1 ;
+}
+.search{
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+    background-blend-mode: screen;
+    padding:1rem;
+    border-radius:0.4rem;
+    box-shadow: 5px 3px 5px #DCF2F1 ;
+}
+.form1{
+    display:grid;
+}
+.css-panel{
+    display:flex;
+    width:30rem;
+    gap:1rem;
+    overflow-x:hidden;
+    height:4rem;
+    scroll-behavior:smooth;
+ 
+}
+
+.previewContainer{
+    margin:auto;
+}
+input{
+    border:3px solid #57A6A1;
+    border-radius:0.5rem;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+textarea{
+    border:1px solid #57A6A1;
+    border-radius:0.5rem;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    
+}
+textarea:active{
+    border:1px solid #FFFAE6;
+
+}
+button{
+    border-inline:2px solid #57A6A1 ;
+    border-top:none;
+    border-bottom:none;
+    cursor:pointer;
+    border-radius:0.5rem;
+
+    padding:1rem;
+}
+button:hover{
+    background-color:#57A6A1;
+    color:#FFFAE6;
+
+}
+img{
+    width:20rem!important;
+   
+    margin:auto;
+    
+}
+.label{
+    padding:1rem;
+}
+*{
+    transition:all 0.1s ease;
+}
+*:hover{
+    transition:all 0.1s ease;
+}
+a{
+    color:black;
+    border:1px solid  #57A6A1;
+    padding:0.2rem;
+    border-radius:0.5rem;
+    list-style:none;
+    text-decoration:none;
+    
+
+}
+a:hover{
+    background-color:#57A6A1;
+}
